@@ -2,7 +2,8 @@
 
 For this guided project, I am playing the role of a junior data analyst for a furnature company. I am given the following unprocessed data in an Excel File titled Office Chair Sales. The purpose of this assignement is to assess the data for organization and readability, apply functions to  
 
-![Raw data](https://user-images.githubusercontent.com/106198562/212725457-a7f73b97-862a-422b-bd37-a5d1fc6be6af.jpg)
+![Screenshot (14)](https://user-images.githubusercontent.com/106198562/212751750-790ef8ea-edab-459c-b268-d252bc3e7af3.png)
+
 
 The first thing I do is apply filters to the data in the spreadsheet to make it both easier to work with as well as easier to read. Our company offers a bulk purchase discount of 5% if the customer purchases 20 or more chairs. Two additional columns are added to make this process automatic, a column to check and see if the order qualifies for the discount, and another column for total price reflecting the discount, if applicaple.
 
