@@ -9,11 +9,12 @@ The step by step process used for this project is described below.
 ![Screenshot (14)](https://user-images.githubusercontent.com/106198562/212751750-790ef8ea-edab-459c-b268-d252bc3e7af3.png)
 
 ### Outcome One- Assessing for Organization and Readibility 
-Filters were applied to the column headers to improve data accessability within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date. Our company offers a bulk purchase discount of 5% if the customer purchases 20 or more chairs. Two additional columns are added to make this process automatic, a column to check and see if the order qualifies for the discount, and another column for total price reflecting the discount, if applicaple.
+Filters were applied to the column headers to improve data accessability within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date.
 
 
-![0002a](https://user-images.githubusercontent.com/106198562/212752802-b969826c-67a8-46b9-ab09-f8a2c92018a0.jpg)
+![0002b](https://user-images.githubusercontent.com/106198562/212759374-258817be-9ad8-44e6-8c6a-5a52b1e0ce8d.jpg)
 
+Our company offers a bulk purchase discount of 5% if the customer purchases 20 or more chairs. Two additional columns are added to make this process automatic, a column to check and see if the order qualifies for the discount, and another column for total price reflecting the discount, if applicaple.
 For the first new column, I used the IF function.  It checks the number of sales in the order and returns either Y or N depending on if the condition is met or not. 
 
 `=IF(L5>=20,"Y","N")`
