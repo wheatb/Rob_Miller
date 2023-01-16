@@ -1,6 +1,6 @@
 # Excel Case Study - Furniture Sales
 
-For this case study I am working as a junior data analyst for a furnature company.  I am given the following unprocessed data in an Excel File.  
+For this project, I am playing the role of a junior data analyst for a furnature company.  I am given the following unprocessed data in an Excel File.  
 
 ![Raw data](https://user-images.githubusercontent.com/106198562/212725457-a7f73b97-862a-422b-bd37-a5d1fc6be6af.jpg)
 
