@@ -7,26 +7,27 @@ For this guided project, I portrayed role of a junior data analyst for a furnatu
 
 The first thing I do is apply filters to the data in the spreadsheet to make it both easier to work with as well as easier to read. Our company offers a bulk purchase discount of 5% if the customer purchases 20 or more chairs. Two additional columns are added to make this process automatic, a column to check and see if the order qualifies for the discount, and another column for total price reflecting the discount, if applicaple.
 
-![0002](https://user-images.githubusercontent.com/106198562/212727731-17fddf0d-5a7a-4c2b-a4ee-b9446eed8f51.jpg)
+
+![0002a](https://user-images.githubusercontent.com/106198562/212752802-b969826c-67a8-46b9-ab09-f8a2c92018a0.jpg)
 
 For the first new column, I used the IF function.  It checks the number of sales in the order and returns either Y or N depending on if the condition is met or not. 
 
 `=IF(L5>=20,"Y","N")`
 
-![0003](https://user-images.githubusercontent.com/106198562/212728877-46302f10-32b0-45c1-a060-0a0313fe9692.jpg)
+![0003a](https://user-images.githubusercontent.com/106198562/212752860-1925eb4c-7ea2-4ac0-9437-77bf777a4c12.jpg)
 
 Finally I added a final column Total Price that reflects if the discount is or is not applied. 
 
 `=IF(L5>=20,0.95*N5,N5)`
 
-![0007](https://user-images.githubusercontent.com/106198562/212730604-3f206f67-c591-43e4-8917-81e9d4529540.jpg)
+![0007a](https://user-images.githubusercontent.com/106198562/212752987-97fd785b-ff2f-435e-9545-987a6109a588.jpg)
 
 ### VLOOKUP
 
 There is a second sheet contining more customer data.  Using VLOOKUP, this data can easily be added to the main sheet.
 
 
-![0004](https://user-images.githubusercontent.com/106198562/212730851-d73d0260-f134-4d0a-ad9b-eef056e6bc1a.jpg)
+![0004a](https://user-images.githubusercontent.com/106198562/212753010-c80ca6ba-11ba-43f8-81cb-ec460b673674.jpg)
 
 Added column 'Company Name'
 `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,2,FALSE)`
@@ -34,8 +35,7 @@ Added column 'Company Name'
 Added column 'Customer Name'
 `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,3,FALSE)`
 
-
-![0006](https://user-images.githubusercontent.com/106198562/212731777-041c6b8c-ea53-4c08-b677-cb09ebe2c756.jpg)
+![0006a](https://user-images.githubusercontent.com/106198562/212753128-381c21d4-9677-4c9c-8ff7-912a272bbea4.jpg)
 
 ### Pivot Tables
 
