@@ -51,11 +51,13 @@ In order to make the data accessible in one spreadsheet, information from the se
 Pivot Tables can be applied to this spreadsheet to quickly and easily filter data to create new tables using the PivotTable Field List seen in Figure 7. 
 
 **Figure 7** PivotTable Field List.
+
 ![Screenshot (9)](https://user-images.githubusercontent.com/106198562/212741010-5a76ca0d-e9ee-4d78-8ddf-1c5b8920f1b3.png)
 
-Examples of new data tables are seen below in Figures 8 and 9. 
+Examples of new data tables created using PivotTables are seen below in Figures 8 and 9. 
 
 **Figure 8** Summary of sales by month and sales representive. 
+
 ![Screenshot (8)](https://user-images.githubusercontent.com/106198562/212740662-cc69ab7a-15b5-4ceb-8174-10f59789b3e2.png)
 
 **Figure 9** Summary of monthly sales by chair model and sales representative. 
