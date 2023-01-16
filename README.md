@@ -15,18 +15,19 @@ Filters were applied to the column headers to improve data accessability within 
 ![0002b](https://user-images.githubusercontent.com/106198562/212759374-258817be-9ad8-44e6-8c6a-5a52b1e0ce8d.jpg)
 
 ### Outcome Two- Discount Data Input 
-The company used for this project offered a 5% discount if the customer purchased twenty or more chairs. Two additional columns were added to the spreadsheet to include information on if the discount was applied and the total purchase price. The IF function was applied to the Discount column. This function checks the number of chairs sold in the numbers column and applies a Y or N depending if the twenty chair condition was or was not met. 
+The company used for this project offered a 5% discount if the customer purchased twenty or more chairs. One additional columns was added to the spreadsheet to include information on if the discount was applied. The IF function was applied to the Discount column. This function automatically checks the number of chairs sold in the Number column and applies a Y or N depending if the twenty chair discount condition was met.
 
 **IF Function Code**
 `=IF(L5>=20,"Y","N")`
 
-**Figure 3** The Excel file after the Discount and Total Price colums were added.
+**Figure 3** The Excel file after the Discount column was added and IF function was applied. 
 ![0003a](https://user-images.githubusercontent.com/106198562/212752860-1925eb4c-7ea2-4ac0-9437-77bf777a4c12.jpg)
 
-Finally I added a final column Total Price that reflects if the discount is or is not applied. 
+Next, I added a Final Price column that reflects the final price of the purchase. An dditiona IF function was added to automatically checks the Number column and applies the discount if the number meets or exceeds twenty. The 5% discount is then automatically reflected in the purchase price column. 
 
-`=IF(L5>=20,0.95*N5,N5)`
+**IF Function Code** `=IF(L5>=20,0.95*N5,N5)`
 
+**Figure 4** The Excel file after the Final Price column was added and IF function was applied. 
 ![0007a](https://user-images.githubusercontent.com/106198562/212752987-97fd785b-ff2f-435e-9545-987a6109a588.jpg)
 
 ### VLOOKUP
