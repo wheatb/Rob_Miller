@@ -14,11 +14,13 @@ Filters were applied to the column headers to improve data accessability within 
 **Figure 2** The Excel file with added filters.
 ![0002b](https://user-images.githubusercontent.com/106198562/212759374-258817be-9ad8-44e6-8c6a-5a52b1e0ce8d.jpg)
 
-Our company offers a bulk purchase discount of 5% if the customer purchases 20 or more chairs. Two additional columns are added to make this process automatic, a column to check and see if the order qualifies for the discount, and another column for total price reflecting the discount, if applicaple.
-For the first new column, I used the IF function.  It checks the number of sales in the order and returns either Y or N depending on if the condition is met or not. 
+### Outcome Two- Discount Data Input 
+The company used for this project offered a 5% discount if the customer purchased twenty or more chairs. Two additional columns were added to the spreadsheet to include information on if the discount was applied and the total purchase price. The IF function was applied to the Discount column. This function checks the number of chairs sold in the numbers column and applies a Y or N depending if the twenty chair condition was or was not met. 
 
+**IF Function Code**
 `=IF(L5>=20,"Y","N")`
 
+**Figure 3** The Excel file after the Discount and Total Price colums were added.
 ![0003a](https://user-images.githubusercontent.com/106198562/212752860-1925eb4c-7ea2-4ac0-9437-77bf777a4c12.jpg)
 
 Finally I added a final column Total Price that reflects if the discount is or is not applied. 
