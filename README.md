@@ -1,6 +1,6 @@
 # Excel Case Study - Furniture Sales
 
-For this project, I am playing the role of a junior data analyst for a furnature company.  I am given the following unprocessed data in an Excel File.  
+For this guided project, I am playing the role of a junior data analyst for a furnature company. I am given the following unprocessed data in an Excel File titled Office Chair Sales. The purpose of this assignement is to assess the data for organization and readability, apply functions to  
 
 ![Raw data](https://user-images.githubusercontent.com/106198562/212725457-a7f73b97-862a-422b-bd37-a5d1fc6be6af.jpg)
 
