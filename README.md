@@ -21,7 +21,14 @@ Finally I added a final column Total Price that reflects if the discount is or i
 ![0007](https://user-images.githubusercontent.com/106198562/212730604-3f206f67-c591-43e4-8917-81e9d4529540.jpg)
 
 
-On a second sheet 
+There is a second sheet contining more customer data.  Using VLOOKUP, this data can easily be added to the main sheet.
 
 
 ![0004](https://user-images.githubusercontent.com/106198562/212730851-d73d0260-f134-4d0a-ad9b-eef056e6bc1a.jpg)
+
+`=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,2,FALSE)`
+
+`=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,3,FALSE)`
+
+![0006](https://user-images.githubusercontent.com/106198562/212731777-041c6b8c-ea53-4c08-b677-cb09ebe2c756.jpg)
+
