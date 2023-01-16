@@ -1,4 +1,4 @@
-# excel_project_1
+# Excel Case Study - Furniture Sales
 
 For this case study I am working as a junior data analyst for a furnature company.  I am given the following unprocessed data in an Excel File.  
 
