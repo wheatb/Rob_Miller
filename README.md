@@ -43,19 +43,22 @@ In order to make the data accessible in one spreadsheet, information from the se
 ![0004a](https://user-images.githubusercontent.com/106198562/212753010-c80ca6ba-11ba-43f8-81cb-ec460b673674.jpg)
 
 
-**Figure 6** The final spreadsheet.
+**Figure 6** The finalized spreadsheet.
 ![0006a](https://user-images.githubusercontent.com/106198562/212753128-381c21d4-9677-4c9c-8ff7-912a272bbea4.jpg)
 
 ### Pivot Tables
 
-With the final data that is now cleaned and re-organized, we can use Pivot Tables to quickly and easily create new tables to summarize our data for us.  I filter the data and create a table showing the sales by sales representative and sales by month.
+Pivot Tables can be applied to this spreadsheet to quickly and easily filter data to create new tables using the PivotTable Field List seen in Figure 7. 
 
+**Figure 7** PivotTable Field List.
 ![Screenshot (9)](https://user-images.githubusercontent.com/106198562/212741010-5a76ca0d-e9ee-4d78-8ddf-1c5b8920f1b3.png)
 
+Examples of new data tables are seen below in Figures 8 and 9. 
+
+**Figure 8** Summary of sales by month and sales representive. 
 ![Screenshot (8)](https://user-images.githubusercontent.com/106198562/212740662-cc69ab7a-15b5-4ceb-8174-10f59789b3e2.png)
 
-The Pivot Table is able to be expanded even more to show a breakdown of sales by model, for each sales representative.
-
+**Figure 9** Summary of monthly sales by chair model and sales representative. 
 ![Screenshot (12)](https://user-images.githubusercontent.com/106198562/212741647-2cf48f82-626d-4865-9d21-5341cbe86c39.png)
 
 
