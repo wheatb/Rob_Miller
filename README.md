@@ -38,7 +38,7 @@ In order to make the data accessible in one spreadsheet, information from the se
 
 **VLOOKUP Function Code added to column 'Customer Name'** `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,3,FALSE)`
 
-**Figure 5** The Customer IF Information file. 
+**Figure 5** The Customer ID Information file. 
 
 ![0004a](https://user-images.githubusercontent.com/106198562/212753010-c80ca6ba-11ba-43f8-81cb-ec460b673674.jpg)
 
