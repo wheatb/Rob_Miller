@@ -1,5 +1,6 @@
 # Excel Case Study - Furniture Sales
 
+### Project Summary
 For this guided project, I portrayed role of a junior data analyst for a furnature company. I was given an unprocessed data file via Excel titled Office Chair Sales as seen below. The first outcome of this assignement was to assess two .CSV files for organization and readability. Second, pertinant information regarding sales discounts and price was added to the spreadsheet. The final outcome was to summarize data into one spreadsheet allowing for easy accessibility for users.
 
 The step by step process used for this project is described below.
