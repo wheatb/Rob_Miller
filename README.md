@@ -54,14 +54,16 @@ Pivot Tables can be applied to this spreadsheet to quickly and easily filter dat
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/106198562/212741010-5a76ca0d-e9ee-4d78-8ddf-1c5b8920f1b3.png)
 
-Examples of new data tables and graphs created using PivotTables are seen below in Figures 8-11.  
+Examples of new data tables and graphs created using PivotTables are seen below in Figures 8 and 9.
 
-**Figure 8** Summary of sales representative. 
+**Figure 8** Summary table of Monthly Sales by Representative. 
 
-![Screenshot (8)](https://user-images.githubusercontent.com/106198562/212740662-cc69ab7a-15b5-4ceb-8174-10f59789b3e2.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/106198562/212768874-2cd01c15-d440-42c9-bdef-03856cfc5cf9.png)
 
-**Figure 9** Summary of monthly sales by chair model and sales representative. 
-![Screenshot (12)](https://user-images.githubusercontent.com/106198562/212741647-2cf48f82-626d-4865-9d21-5341cbe86c39.png)
+**Figure 9** Pivot table graph of Monthly Sales by Representative.
+
+![Screenshot (18)](https://user-images.githubusercontent.com/106198562/212769634-a2f7a602-8947-4694-929d-c4bdf5ced99d.png)
+
 
 
 
