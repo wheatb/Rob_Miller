@@ -20,15 +20,33 @@ Finally I added a final column Total Price that reflects if the discount is or i
 
 ![0007](https://user-images.githubusercontent.com/106198562/212730604-3f206f67-c591-43e4-8917-81e9d4529540.jpg)
 
+### VLOOKUP
 
 There is a second sheet contining more customer data.  Using VLOOKUP, this data can easily be added to the main sheet.
 
 
 ![0004](https://user-images.githubusercontent.com/106198562/212730851-d73d0260-f134-4d0a-ad9b-eef056e6bc1a.jpg)
 
+Added column 'Company Name'
 `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,2,FALSE)`
 
+Added column 'Customer Name'
 `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,3,FALSE)`
 
+
 ![0006](https://user-images.githubusercontent.com/106198562/212731777-041c6b8c-ea53-4c08-b677-cb09ebe2c756.jpg)
+
+### Pivot Tables
+
+With the final data that is now cleaned and re-organized, we can use Pivot Tables to quickly and easily create new tables to summarize our data for us.  I filter the data and create a table showing the sales by sales representative and sales by month.
+
+![Screenshot (9)](https://user-images.githubusercontent.com/106198562/212741010-5a76ca0d-e9ee-4d78-8ddf-1c5b8920f1b3.png)
+
+![Screenshot (8)](https://user-images.githubusercontent.com/106198562/212740662-cc69ab7a-15b5-4ceb-8174-10f59789b3e2.png)
+
+The Pivot Table is able to be expanded even more to show a breakdown of sales by model, for each sales representative.
+
+![Screenshot (12)](https://user-images.githubusercontent.com/106198562/212741647-2cf48f82-626d-4865-9d21-5341cbe86c39.png)
+
+
 
