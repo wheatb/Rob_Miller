@@ -1,7 +1,7 @@
 # Excel Case Study - Furniture Sales
 
 ### **Project Summary**
-For this guided project, I portrayed role of a junior data analyst for a furnature company. I was given an unprocessed data file via Excel titled Office Chair Sales as seen in Figure 1. The first outcome of this assignement was to assess two .CSV files for organization and readability. Second, pertinant information regarding sales discounts and price was added to the spreadsheet. The final outcome was to summarize data into one spreadsheet allowing for easy accessibility for users.
+For this guided project, I portrayed role of a junior data analyst for a furnature company. I was given an unprocessed data file via Excel titled Office Chair Sales as seen in Figure 1. The first outcome of this assignement was to assess two .CSV files for organization and readability. Second, pertinant information regarding sales discounts and price was added to the spreadsheet. The final outcome was to summarize data into one spreadsheet using VLOOKUP allowing for easy accessibility for users. 
 
 The step by step process used for this project is described below.
 
@@ -30,19 +30,19 @@ Next, I added a Final Price column that reflects the final price of the purchase
 **Figure 4** The Excel file after the Final Price column was added and IF function was applied. 
 ![0007a](https://user-images.githubusercontent.com/106198562/212752987-97fd785b-ff2f-435e-9545-987a6109a588.jpg)
 
-### VLOOKUP
+### Outcome Three- VLOOKUP
 
-There is a second sheet contining more customer data.  Using VLOOKUP, this data can easily be added to the main sheet.
+In order to make the data accessible in one spreadsheet, information from the second file titled Customer ID Information was added into two columns in the main spreadsheet. Column G displays the Company Name and Column H lists the Customer Name. The VLOOKUP function was added to the Company and Customer Name columns so the corresponding data would automatically filter into the main spreadsheet. 
 
+**VLOOKUP Function Code added to column 'Company Name'** `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,2,FALSE)`
 
+**VLOOKUP Function Code added to column 'Customer Name'** `=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,3,FALSE)`
+
+**Figure 5** The Customer IF Information file. 
 ![0004a](https://user-images.githubusercontent.com/106198562/212753010-c80ca6ba-11ba-43f8-81cb-ec460b673674.jpg)
 
-Added column 'Company Name'
-`=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,2,FALSE)`
 
-Added column 'Customer Name'
-`=VLOOKUP(F5,'Customer Info'!$A$4:$C$12,3,FALSE)`
-
+**Figure 6** The final spreadsheet.
 ![0006a](https://user-images.githubusercontent.com/106198562/212753128-381c21d4-9677-4c9c-8ff7-912a272bbea4.jpg)
 
 ### Pivot Tables
