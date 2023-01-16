@@ -9,9 +9,9 @@ The step by step process used for this project is described below.
 ![Screenshot (14)](https://user-images.githubusercontent.com/106198562/212751750-790ef8ea-edab-459c-b268-d252bc3e7af3.png)
 
 ### Outcome One- Assessing for Organization and Readibility 
-Filters were applied to the column headers to improve data accessability within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date.
+Filters were applied to the column headers to improve data accessability within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date. After the filters were added, the colors were automatically updated to the spreadsheet, improving the overall readability of the file. 
 
-
+**Figure 2** The Excel file with added filters.
 ![0002b](https://user-images.githubusercontent.com/106198562/212759374-258817be-9ad8-44e6-8c6a-5a52b1e0ce8d.jpg)
 
 Our company offers a bulk purchase discount of 5% if the customer purchases 20 or more chairs. Two additional columns are added to make this process automatic, a column to check and see if the order qualifies for the discount, and another column for total price reflecting the discount, if applicaple.
