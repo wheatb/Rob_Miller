@@ -1,15 +1,15 @@
 # Excel Case Study - Furniture Sales
 
 ### **Project Summary**
-For this guided project, I portrayed role of a junior data analyst for a furnature company. I was given an unprocessed data file via Excel titled Office Chair Sales as seen in Figure 1. The first outcome of this assignement was to assess two .CSV files for organization and readability. Second, pertinant information regarding sales discounts and price was added to the spreadsheet. The final outcome was to summarize data into one spreadsheet using VLOOKUP allowing for easy accessibility for users. 
+For this guided project, I portrayed role of a junior data analyst for a furniture company. I was given an unprocessed data file via Excel titled Office Chair Sales as seen in Figure 1. The first outcome of this assignment was to assess two .CSV files for organization and readability. Second, pertinent information regarding sales discounts and price was added to the spreadsheet. The final outcome was to summarize data into one spreadsheet using VLOOKUP allowing for easy accessibility for users. 
 
 The step by step process used for this project is described below.
 
 **Figure 1** The initial .CSV file presented at the start of the project.
 ![Screenshot (14)](https://user-images.githubusercontent.com/106198562/212751750-790ef8ea-edab-459c-b268-d252bc3e7af3.png)
 
-### Outcome One- Assessing for Organization and Readibility 
-Filters were applied to the column headers to improve data accessability within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date. After the filters were added, the colors were automatically updated to the spreadsheet, improving the overall readability of the file. 
+### Outcome One- Assessing for Organization and Readability 
+Filters were applied to the column headers to improve data accessibility within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date. After the filters were added, the colors were automatically updated to the spreadsheet, improving the overall readability of the file. 
 
 **Figure 2** The Excel file with added filters.
 ![0002b](https://user-images.githubusercontent.com/106198562/212759374-258817be-9ad8-44e6-8c6a-5a52b1e0ce8d.jpg)
@@ -23,7 +23,7 @@ The company used for this project offered a 5% discount if the customer purchase
 **Figure 3** The Excel file after the Discount column was added and IF function was applied. 
 ![0003a](https://user-images.githubusercontent.com/106198562/212752860-1925eb4c-7ea2-4ac0-9437-77bf777a4c12.jpg)
 
-Next, I added a Final Price column that reflects the final price of the purchase. An dditiona IF function was added to automatically checks the Number column and applies the discount if the number meets or exceeds twenty. The 5% discount is then automatically reflected in the purchase price column. 
+Next, I added a Final Price column that reflects the final price of the purchase. An additional IF function was added to automatically checks the Number column and applies the discount if the number meets or exceeds twenty. The 5% discount is then automatically reflected in the purchase price column. 
 
 **IF Function Code** `=IF(L5>=20,0.95*N5,N5)`
 
