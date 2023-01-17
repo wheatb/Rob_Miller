@@ -6,7 +6,7 @@ For this guided project, I portrayed role of a junior data analyst for a furnitu
 The step by step process used for this project is described below.
 
 **Figure 1** The initial .CSV file presented at the start of the project.
-![Screenshot (14)](https://user-images.githubusercontent.com/106198562/212751750-790ef8ea-edab-459c-b268-d252bc3e7af3.png)
+![0001a](https://user-images.githubusercontent.com/106198562/212805577-25dacc12-8531-430d-8851-52d280c52b04.png)
 
 ### Outcome One- Assessing for Organization and Readability 
 Filters were applied to the column headers to improve data accessibility within the spreadsheet. Filters include, but are not limited to, customer name, total sales by region, or by total sales per date. After the filters were added, the colors were automatically updated to the spreadsheet, improving the overall readability of the file. 
